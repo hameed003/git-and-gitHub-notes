@@ -1,0 +1,7 @@
+Q1: what is the difference between 'ssh-keygen -t ed25519' , ssh-keygen -t ed25519 -C "your_email@example.com", ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+Q2: is it necessary to use 'eval "$(ssh-agent -s)" ' before running this command 'ssh-add ~/.ssh/id_hameed008'.
+
+
+
+ 
