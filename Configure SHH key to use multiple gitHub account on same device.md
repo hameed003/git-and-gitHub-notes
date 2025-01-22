@@ -135,7 +135,7 @@ git remote add origin git@github.hameed003:hameed003/test.git
 To resolve this now we have to set the modified `remote url` explicitly like below.
 
 ```bash
-git remote set-url origin git@github-hameed003:username/repoName.git
+git remote set-url origin git@github-username:username/repoName.git
 ```
 
 ![Setting remote url explicitly](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/11%20Setting%20remote%20url%20explicitly.png "Setting remote url explicitly")
