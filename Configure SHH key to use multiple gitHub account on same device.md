@@ -112,16 +112,6 @@ IdentityFile ~/.ssh/id_hameed003
 
 Save the file ( `Ctrl+O`, then `Ctrl+X` in nano ).
 
-## 4. Update Repository Remote URLs
-
-For repositories linked to each account, update the remote URLs to use the corresponding alias:
-
-For hameed008:
-
-```
-git remote set-url origin git@github-hameed003:hameed003/repo.git
-```
-
 ## **_Things to remember while cloning a repo from the gitHub or adding a repo from the gitHub to push an existing repo to gitHub:_**
 
 Replace `.com` from the `remote url` with gitHub username which is`-hameed003` in this case while cloning a repo or adding a repo from gitHub with `ssh url` like below.
@@ -148,6 +138,16 @@ To resolve this now we have to set the modified `remote url` explicitly like bel
 
 ```bash
 git remote set-url origin git@github-hameed003:username/repoName.git
+```
+
+## 4. Update Repository Remote URLs
+
+For repositories linked to each account, update the remote URLs to use the corresponding alias:
+
+For hameed003:
+
+```
+git remote set-url origin git@github-hameed003:hameed003/repo.git
 ```
 
 ## 5.Clone A Repository From GitHub
