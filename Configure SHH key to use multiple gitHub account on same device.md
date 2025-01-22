@@ -51,6 +51,7 @@ clip <~/.ssh/id_hameed009.pub
 ![ Command to copy ssh public key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/05%20copy%20ssh%20key.png " Command to copy ssh public key")
 
 Now paste this `ssh public key` to the `SSH and GPS keys` section in gitHub Settings.
+
 ![ gitHub ssh keys setting](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/05%20gitHub%20ssh%20keys%20setting.png "gitHub ssh keys setting")
 
 ## 2. Add SSH Keys to the Agent
