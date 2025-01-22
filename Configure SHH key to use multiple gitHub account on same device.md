@@ -20,11 +20,11 @@ Save each key with a unique name, such as ~/.ssh/id_hameed008 and ~/.ssh/id_hame
 
 ### Generate ssh key
 
-![Command To Generate A SSH Key](https://assets.digitalocean.com/articles/alligator/boo.svg "Command to generate a ssh key")
+![Command To Generate A SSH Key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/01%20generate%20ssh%20key.png "Command to generate a ssh key")
 
 ### Rename ssh key file name
 
-![Command To Generate A SSH Key](https://assets.digitalocean.com/articles/alligator/boo.svg "Command to generate a ssh key")
+![Command To Generate A SSH Key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/02%20rename%20ssh%20key%20file%20name.png "Command to generate a ssh key")
 
 ### View ssh key method 1
 
