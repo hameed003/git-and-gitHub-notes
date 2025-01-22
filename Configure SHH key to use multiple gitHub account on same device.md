@@ -116,13 +116,13 @@ Save the file ( `Ctrl+O`, then `Ctrl+X` in nano ).
 
 Replace `.com` from the `remote url` with gitHub username which is`-hameed003` in this case while cloning a repo or adding a repo from gitHub with `ssh url` like below.
 
-original url
+**original url**
 
 ```bash
  git remote add origin git@github.com:hameed003/test.git
 ```
 
-modified url
+**modified url**
 
 ```bash
 git remote add origin git@github.hameed003:hameed003/test.git
@@ -134,11 +134,11 @@ git remote add origin git@github.hameed003:hameed003/test.git
 
 To resolve this now we have to set the modified `remote url` explicitly like below.
 
-![Setting remote url explicitly](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/11%20Setting%20remote%20url%20explicitly.png "Setting remote url explicitly")
-
 ```bash
 git remote set-url origin git@github-hameed003:username/repoName.git
 ```
+
+![Setting remote url explicitly](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/11%20Setting%20remote%20url%20explicitly.png "Setting remote url explicitly")
 
 ## 4. Update Repository Remote URLs
 
@@ -146,7 +146,7 @@ For repositories linked to each account, update the remote URLs to use the corre
 
 For hameed003:
 
-```
+```bash
 git remote set-url origin git@github-hameed003:hameed003/repo.git
 ```
 
