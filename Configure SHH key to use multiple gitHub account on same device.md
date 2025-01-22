@@ -172,11 +172,11 @@ git remote set-url origin git@github-hameed003:hameed003/repo.git
 
 ### Push Existing repo to gitHub image 2
 
-![Push Existing repo to gitHub image 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/13%20clone%20repo%20from%20gitHub%20image%202.png "Push Existing repo to gitHub image 2")
+![Push Existing repo to gitHub image 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/16%20push%20existing%20repo%20to%20gitHub%20image%202.png "Push Existing repo to gitHub image 2")
 
 ### Push Existing repo to gitHub image 3
 
-![Push Existing repo to gitHub image 3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/14%20clone%20repo%20from%20gitHub%20image%203.png "Push Existing repo to gitHub image 3")
+![Push Existing repo to gitHub image 3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/17%20push%20existing%20repo%20to%20gitHub%20image%203.png "Push Existing repo to gitHub image 3")
 
 ### Push Existing repo to gitHub image 4
 
