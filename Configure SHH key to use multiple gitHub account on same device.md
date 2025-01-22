@@ -136,11 +136,11 @@ git remote add origin git@github.hameed003:hameed003/test.git
 
 **Note-** If you do not replace `.com` from the `remote url` with gitHub username which is`-hameed003` in this case and cloned the repo, so when we try to push the repo to `gitHub` we will get the following error.
 
-![Error while pushing a reop to gitHub](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/12%20clone%20repo%20from%20gitHub%20image%203.png "Error while pushing a reop to gitHub")
+![Error while pushing a reop to gitHub](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/10%20Error%20while%20pushing%20a%20reop%20to%20gitHub.png "Error while pushing a reop to gitHub")
 
 To resolve this now we have to set the modified `remote url` explicitly like below.
 
-![Setting remote url explicitly](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/12%20clone%20repo%20from%20gitHub%20image%203.png "explicitly")
+![Setting remote url explicitly](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/11%20Setting%20remote%20url%20explicitly.png "Setting remote url explicitly")
 
 ```bash
 git remote set-url origin git@github-hameed003:username/repoName.git
