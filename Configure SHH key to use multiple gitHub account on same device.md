@@ -154,30 +154,30 @@ git remote set-url origin git@github-hameed003:hameed003/repo.git
 
 ### Clone repo from gitHub image 1
 
-![Clone repo from gitHub image 1](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/10%20clone%20repo%20from%20gitHub%20image%201.png "Clone repo from gitHub image 1")
+![Clone repo from gitHub image 1](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/12%20clone%20repo%20from%20gitHub%20image%201.png "Clone repo from gitHub image 1")
 
 ### Clone repo from gitHub image 2
 
-![Clone repo from gitHub image 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/11%20clone%20repo%20from%20gitHub%20image%202.png "Clone repo from gitHub image 2")
+![Clone repo from gitHub image 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/13%20clone%20repo%20from%20gitHub%20image%202.png "Clone repo from gitHub image 2")
 
 ### Clone repo from gitHub image 3
 
-![Clone repo from gitHub image 3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/12%20clone%20repo%20from%20gitHub%20image%203.png "Clone repo from gitHub image 13")
+![Clone repo from gitHub image 3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/14%20clone%20repo%20from%20gitHub%20image%203.png "Clone repo from gitHub image 13")
 
 ## 6. Push An Existing Repo To GitHub
 
 ### Push Existing repo to gitHub image 1
 
-![Push Existing repo to gitHub image 1](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/13%20push%20existing%20repo%20to%20gitHub%20image%201.png "Push Existing repo to gitHub image 1")
+![Push Existing repo to gitHub image 1](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/15%20push%20existing%20repo%20to%20gitHub%20image%201.png "Push Existing repo to gitHub image 1")
 
 ### Push Existing repo to gitHub image 2
 
-![Push Existing repo to gitHub image 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/14%20push%20existing%20repo%20to%20gitHub%20image%202.png "Push Existing repo to gitHub image 2")
+![Push Existing repo to gitHub image 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/13%20clone%20repo%20from%20gitHub%20image%202.png "Push Existing repo to gitHub image 2")
 
 ### Push Existing repo to gitHub image 3
 
-![Push Existing repo to gitHub image 3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/15%20push%20existing%20repo%20to%20gitHub%20image%203.png "Push Existing repo to gitHub image 3")
+![Push Existing repo to gitHub image 3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/14%20clone%20repo%20from%20gitHub%20image%203.png "Push Existing repo to gitHub image 3")
 
 ### Push Existing repo to gitHub image 4
 
-![Push Existing repo to gitHub image 4](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/16%20push%20existing%20repo%20to%20gitHub%20image%204.png "Push Existing repo to gitHub image 4")
+![Push Existing repo to gitHub image 4](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/18%20push%20existing%20repo%20to%20gitHub%20image%204.png "Push Existing repo to gitHub image 4")
