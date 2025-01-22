@@ -1,22 +1,22 @@
 # Configure SHH Key To Use Multiple GitHub Account On Same Device.
 
-## 1. Create SSH Keys
+## Practical Demonstration:
+
+## 1. Generate SSH Keys
 
 Generate separate SSH keys for each GitHub account if you haven't already:
 
-```
+```bash
 ssh-keygen -t ed25519
 ```
 
 OR
 
-```
+```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-Save each key with a unique name, such as ~/.ssh/id_hameed008 and ~/.ssh/id_hameed003.
-
-## Practical Demonstration:
+Save each key with a unique name, such as `~/.ssh/id_hameed008` and `~/.ssh/id_hameed003`.
 
 ### Generate ssh key
 
@@ -24,39 +24,51 @@ Save each key with a unique name, such as ~/.ssh/id_hameed008 and ~/.ssh/id_hame
 
 ### Rename ssh key file name
 
-![Command To Generate A SSH Key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/02%20rename%20ssh%20key%20file%20name.png "Command to generate a ssh key")
+![Rename ssh key file name](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/02%20rename%20ssh%20key%20file%20name.png "Rename ssh key file name")
 
-### View ssh key method 1
+### Command 1 to view ssh public key
 
-![View ssh key method 1](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/03%20view%20ssh%20key%201.png "View ssh key method 1")
+```bash
+ cat ~/.ssh/id_hameed009.pub
+```
 
-### View ssh key method 2
+![Command 1 to view ssh public key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/03%20view%20ssh%20key%201.png "Command 1 to view ssh public key")
 
-![View ssh key method 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/04%20view%20ssh%20key%202.png "View ssh key method 2")
+### Command 2 to view ssh public key
 
-### Copy ssh key
+```bash
+tail <~/.ssh/id_hameed009.pub
+```
 
-![Copy ssh key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/05%20copy%20ssh%20key.png "Copy ssh key")
+![Command 2 to view ssh public key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/04%20view%20ssh%20key%202.png "Command 2 to view ssh public key")
+
+### Command to copy ssh public key
+
+```bash
+clip <~/.ssh/id_hameed009.pub
+```
+
+![ Command to copy ssh public key](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/05%20copy%20ssh%20key.png " Command to copy ssh public key")
 
 ## 2. Add SSH Keys to the Agent
 
 Start the SSH agent and add your keys:
 
-```
+### Command to start ssh agent
+
+```bash
 eval "$(ssh-agent -s)"
 ```
 
-### Start ssh agent
+![Command to start ssh agent](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/06%20start%20ssh%20agent.png "Command to start ssh agent")
 
-![Start ssh agent](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/06%20start%20ssh%20agent.png "Start ssh agent")
+### Command to add ssh agent
 
-```
+```bash
 ssh-add ~/.ssh/id_hameed008
 ```
 
-### Add ssh agent
-
-![Add ssh agent](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/07%20add%20ssh%20agent.png "Add ssh agent")
+![Command to add ssh agent](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/07%20add%20ssh%20agent.png "Command to add ssh agent")
 
 ### Setup ssh key final image 1
 
@@ -72,7 +84,7 @@ ssh-add ~/.ssh/id_hameed008
 
 Edit or create the SSH config file:
 
-```
+```bash
 nano ~/.ssh/config
 ```
 
@@ -103,7 +115,35 @@ For repositories linked to each account, update the remote URLs to use the corre
 For hameed008:
 
 ```
-git remote set-url origin git@github-hameed008:username/repo.git
+git remote set-url origin git@github-hameed003:hameed003/repo.git
+```
+
+## **_Things to remember while cloning a repo from the gitHub or adding a repo from the gitHub to push an existing repo to gitHub:_**
+
+Replace `.com` from the `remote url` with gitHub username which is`-hameed003` in this case while cloning a repo or adding a repo from gitHub with `ssh url` like below.
+
+original url
+
+```bash
+ git remote add origin git@github.com:hameed003/test.git
+```
+
+modified url
+
+```bash
+git remote add origin git@github.hameed003:hameed003/test.git
+```
+
+**Note-** If you do not replace `.com` from the `remote url` with gitHub username which is`-hameed003` in this case and cloned the repo, so when we try to push the repo to `gitHub` we will get the following error.
+
+![Error while pushing a reop to gitHub](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/12%20clone%20repo%20from%20gitHub%20image%203.png "Error while pushing a reop to gitHub")
+
+To resolve this now we have to set the modified `remote url` explicitly like below.
+
+![Setting remote url explicitly](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/12%20clone%20repo%20from%20gitHub%20image%203.png "explicitly")
+
+```bash
+git remote set-url origin git@github-hameed003:username/repoName.git
 ```
 
 ## 5.Clone A Repository From GitHub
@@ -116,7 +156,7 @@ git remote set-url origin git@github-hameed008:username/repo.git
 
 ![Clone repo from gitHub image 2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/11%20clone%20repo%20from%20gitHub%20image%202.png "Clone repo from gitHub image 2")
 
-### Generate ssh key
+### Clone repo from gitHub image 3
 
 ![Clone repo from gitHub image 3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/images/ssh%20setup%20images/12%20clone%20repo%20from%20gitHub%20image%203.png "Clone repo from gitHub image 13")
 
