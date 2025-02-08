@@ -76,6 +76,12 @@ git commit --amend --reset-author  # Update commit author details or Changes the
 
 - Save staged changes to the repository.
 
+```bash
+git add . + git commit -m "Commit message"
+```
+
+- Combination of `git add .` and `git commit -m "Commit message"`
+
 ## 3. Viewing Commit History
 
 **`git log`**
@@ -139,6 +145,14 @@ git checkout -- index.html  # Revert index.html to its last committed state
 
 - Restores a file to its last committed state.
 
+**`git checkout <branch-name> <file-name>`**
+
+```bash
+git checkout main file.txt
+```
+
+- Restores a file from a specific branch.
+
 **Key Notes**
 
 - The **`--`** is used to clarify that **`<file>`** is a file path (not a branch name).
@@ -154,20 +168,14 @@ git checkout -- index.html  # Revert index.html to its last committed state
 **_Discard changes to all files in the current directory:_**
 
 ```bash
-git checkout -- index.html  # Revert index.html to its last committed state
-```
-
-**`git checkout <branch-name> <file-name>`**
-
-```bash
 git checkout -- .  # Revert all files in the current directory to its last committed state
 ```
 
-- Restores a file from a specific branch.
+- Restores all files in the current directory to its last committed state
 
 **`git checkout -- <deleted-file-name>`**
 
-**_Recover a deleted file (if it was tracked):_**
+**_Recovers a deleted file (if it was tracked):_**
 
 ```bash
 git checkout -- deleted-file.txt  # Restores the deleted file
@@ -237,8 +245,10 @@ git rebase main  # Move "feature" commits to the tip of "main"
 
 - Reapply commits on top of another branch (rewrites history).
 
+**`git rebase -i`**
+
 ```bash
-git rebase -i
+git rebase -i HEAD~3
 ```
 
 - Interactive rebase (useful for modifying commits).
@@ -284,7 +294,6 @@ git push --force  # Force push (use with caution!)
 
 ```bash
 git fetch origin    # Fetch changes from "origin" without merging
-
 ```
 
 - Retrieves changes from the remote repository without merging.
@@ -341,11 +350,22 @@ git config --get remote.origin.url # Get the URL of "origin"
 
 - Shows the URL of the remote repository.
 
+**`git remote set-url origin <url>`**
+
 ```bash
-git remote set-url origin <url>
+git remote set-url origin git@github.com:username/repo.git        # for https
+git remote set-url origin git@github-username:username/repo.git  # for ssh
 ```
 
-- Changes the remote URL.
+- Reset or changes the remote URL.
+
+**`git config --global url."<new-url>".insteadOf "<old-url>"`**
+
+```bash
+git config --global url."git@github-hameed003:".insteadOf "git@github.com:hameed003/"
+```
+
+- URL substitution for SSH.
 
 ## 6. Stashing & Resetting
 
@@ -371,8 +391,10 @@ git reset --hard HEAD~3  # Discard last 3 commits and all changes (destructive!)
 
 - Unstages changes without deleting them.
 
+**`git reset --hard <commit-hash>`**
+
 ```bash
-git reset --hard <commit-hash>
+git reset --hard abc123
 ```
 
 - Resets the repository to a specific commit (deletes all newer changes).
@@ -387,11 +409,32 @@ git revert abc123  # Revert the commit with hash "abc123"
 
 ## 7. Viewing Differences
 
+**`git diff`**
+
+- Shows the **unstaged changes** (modifications in the working directory that are not yet staged).
+- It helps you see what changes have been made before staging them.
+
 ```bash
 git diff
 ```
 
-- Shows unstaged differences.
+- Displays differences between the working directory and the last committed version.
+
+**`git diff --staged`**
+
+- Shows **staged changes** (modifications that have been added with git add but not yet committed).
+- Helps review changes that will be included in the next commit.
+
+```bash
+git diff --staged
+```
+
+- Displays the differences between the staged version and the last committed version.
+
+| Command             | Shows Differences Between       |
+| ------------------- | ------------------------------- |
+| `git diff`          | Working directory ↔ Last commit |
+| `git diff --staged` | Staged changes ↔ Last commit    |
 
 ```bash
 git stats
@@ -438,10 +481,10 @@ node_modules/
 ## 9. Git Configuration
 
 ```bash
-git config user.name "John Doe"                       # Set local username
-git config user.email "jhondoe@gmail.com"            # Set local email
+git config user.name "John Doe"                       # Set local or per-repo username
+git config user.email "jhondoe@gmail.com"            # Set local or per-repo email .
 
-git config --global user.name "John Doe"            # Set local username
+git config --global user.name "John Doe"            # Set global username
 git config --global user.email "john@example.com"  # Set global email
 ```
 
@@ -450,12 +493,19 @@ git config --list           # Show all settings
 git config --local --list  # Show local settings
 ```
 
-= Lists all Git configurations.
+- Lists all Git configurations.
+
+```bash
+git config --show-origin --list
+```
+
+- Show config file locations.
 
 **`git config --global alias.<shortcut> <command>`**
 
 ```bash
-git config --global alias.co checkout # Create shortcut: `git co`
+git config --global alias.s status  # Create shortcut: `git s`
+git config --global alias.co "checkout" # Create shortcut: `git co`
 ```
 
 - Creates a shortcut for a Git command.
@@ -499,7 +549,7 @@ git submodule add https://github.com/user/library.git  # Adds a submodule
 git reflog
 ```
 
--Displays history of reference changes.
+- Displays history of reference changes.
 
 **`git cherry-pick <commit-hash>`**
 

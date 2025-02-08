@@ -11,3 +11,7 @@
 6. What is the difference between 'master' and 'main' branch in git and GitHub, somewhere it's master and somewhere it's main so how they actually are decided and does the main or master branch on local machine and main or master on remote server like GitHub are the same or different ?
 
 7. how to delete a branch in git
+
+8. git config --global core.editor emacs ( for linux )
+
+9. git config --global core.editor vim ( for linux )
