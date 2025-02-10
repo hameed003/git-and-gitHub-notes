@@ -125,7 +125,7 @@ Replace `.com` from the `remote url` with gitHub username which is`-hameed003` i
 **modified url**
 
 ```bash
-git remote add origin git@github.hameed003:hameed003/test.git
+git remote add origin git@github-hameed003:hameed003/test.git
 ```
 
 **Note-** If you do not replace `.com` from the `remote url` with gitHub username which is`-hameed003` in this case and cloned the repo, so when we try to push the repo to `gitHub` we will get the following error.
