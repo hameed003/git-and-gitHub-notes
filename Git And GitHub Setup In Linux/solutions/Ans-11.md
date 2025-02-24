@@ -163,6 +163,6 @@ Choose the credential helper that best fits your use case and security requireme
 
 ![Ways GitHub Provides To Authenticate And Authorize](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/Ways%20GitHub%20Provides%20To%20Authenticate%20And%20Authorize.png)
 
-`GitHub Apps`
-`OAuth Apps`
+`GitHub Apps`,
+`OAuth Apps` and
 `Personal access tokens` [ Fine-grained tokens and Tokens (classic) ] what is the difference between them ? [Ans-12](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-12.md)
