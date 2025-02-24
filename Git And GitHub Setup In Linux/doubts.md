@@ -3,11 +3,11 @@ why i get this error again and again and this is only in linux but not in window
 
 ---
 
-**Q01:** in windows it does not ask for password only. [Ans-01]()
+**Q01:** in windows it does not ask for password only. [Ans-01](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-01.md)
 
 ---
 
-**Q02:** what if my `PATs` got expired will i still be able to `push` and `pull` my code on `gitHub`. [Ans-02]()
+**Q02:** what if my `PATs` got expired will i still be able to `push` and `pull` my code on `gitHub`. [Ans-02](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-02.md)
 
 ---
 

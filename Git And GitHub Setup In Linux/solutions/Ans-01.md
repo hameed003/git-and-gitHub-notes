@@ -35,3 +35,7 @@ Here's how you can configure Git to use a credential manager on Linux so that it
 Please note that the steps provided above may vary depending on your Linux distribution and the version of Git Credential Manager Core. Make sure to consult the documentation or instructions provided with the specific release you downloaded.
 
 Once you've configured Git to use a credential manager on Linux, your authentication experience should be similar to what you're accustomed to on Windows, where you don't need to enter your password for each Git operation. Instead, the credential manager handles it automatically using the stored credentials (PAT).
+
+# Doubt:
+
+what if my `PATs` got expired will i still be able to `push` and `pull` my code on `gitHub`. [Ans-02](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-02.md)

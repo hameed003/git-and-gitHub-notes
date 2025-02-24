@@ -138,4 +138,4 @@ By following these steps, you should be able to resolve the authentication issue
 
 # Doubt:
 
-where can i see my `credentials` in windows. [Ans-2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-2.md)
+**Q01:** in windows it does not ask for password only. [Ans-01](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-01.md)

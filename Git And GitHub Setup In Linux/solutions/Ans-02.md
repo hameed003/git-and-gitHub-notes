@@ -50,3 +50,7 @@ Here's what you should do if your PAT has expired:
    After entering the new Personal Access Token, Git will authenticate you using the new token, and you'll be able to push and pull code from GitHub.
 
 By following these steps, you can renew your authentication on GitHub by generating a new Personal Access Token and updating your Git configuration with the new token, allowing you to continue using Git seamlessly for your GitHub interactions.
+
+# Doubt:
+
+where can i see my `credentials` in windows. [Ans-2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-2.md)
