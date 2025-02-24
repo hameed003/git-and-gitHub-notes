@@ -1,3 +1,5 @@
+# Way to use GitHub on multiple machines with SSH
+
 Let’s break this down step by step! I’ll show you the most secure and scalable way to use GitHub on multiple machines with SSH, so you can switch between them seamlessly.
 
 Here’s how to do it the **right way**:
