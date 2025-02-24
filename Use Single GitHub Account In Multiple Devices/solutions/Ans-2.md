@@ -49,3 +49,7 @@ Hi <username>! You've successfully authenticated...
 Now both machines can push and pull from your GitHub repositories without interfering with each other!
 
 Would you like me to walk you through managing multiple SSH keys if you use multiple GitHub accounts? Let me know! 🚀
+
+# Doubt:
+
+What if I generate **one** `public key` and `private key` and share or copy the same `public key` and `private key` on both machine will it work. [Ans-3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Use%20Single%20GitHub%20Account%20In%20Multiple%20Devices/solutions/Ans-3.md)

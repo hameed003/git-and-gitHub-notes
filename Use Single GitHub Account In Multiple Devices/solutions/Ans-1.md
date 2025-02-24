@@ -122,3 +122,7 @@ git pull
 This way, you can seamlessly switch between machines!
 
 Would you like me to help you set up multiple GitHub accounts on a single machine or dive deeper into SSH key management? Let me know! 🚀
+
+# Doubt:
+
+Since we have generated `SSH` `public key` and ``private key` in both machine so which `public key` should I paste on GitHub. [Ans-2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Use%20Single%20GitHub%20Account%20In%20Multiple%20Devices/solutions/Ans-2.md)
