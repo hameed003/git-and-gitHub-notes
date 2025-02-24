@@ -138,3 +138,7 @@ If you still encounter issues:
 ---
 
 Let me know if you need further assistance!
+
+# Doubt:
+
+since you said that `gitHub CLI` is not installed in my system then how i am able to use `git` and `gitHub`. [Ans-5](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-5.md)

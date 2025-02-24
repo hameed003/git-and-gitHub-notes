@@ -139,3 +139,11 @@ If you don’t want to use GCM, you can disable it:
 - To verify if GCM is active, check the system-level Git configuration or test Git operations.
 
 Let me know if you need further clarification! 😊
+
+# Doubt:
+
+**Q9:** **`C:\Users\hameed>`** `git config --system --get credential.helper`
+
+manager
+
+**`C:\Users\hameed>`** now i am getting `manager` as an output but what is the diffence between `global level` and `system level` credentail helper setup. [Ans-9](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-9.md)

@@ -135,3 +135,7 @@ SSH is a more secure and convenient way to authenticate with GitHub. It uses cry
 - **Use PATs for HTTPS**: If you prefer HTTPS, use a PAT and cache it securely.
 
 By following these steps, you should be able to resolve the authentication issue on Linux and continue using Git and GitHub seamlessly. Let me know if you need further assistance!
+
+# Doubt:
+
+where can i see my `credentials` in windows. [Ans-2](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-2.md)

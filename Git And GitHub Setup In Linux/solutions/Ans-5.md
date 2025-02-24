@@ -93,3 +93,7 @@ These tasks go beyond basic Git operations and provide a more streamlined way to
 If you’re happy using Git for your workflow, you don’t need to install the GitHub CLI. However, if you want to explore additional GitHub-specific features, you can install it by following the steps in my previous response.
 
 Let me know if you have further questions! 😊
+
+# Doubt:
+
+**`C:\Users\hameed>`** `git config --global credential.helper` when i run this command i don't get any output. [Ans-6](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-6.md)

@@ -109,3 +109,9 @@ git config --global credential.helper store
 - To verify or change the credential helper, use `git config --global --get credential.helper` or `git config --global credential.helper <value>`.
 
 Let me know if you have further questions! 😊
+
+# Doubt:
+
+**`C:\Users\hameed>`** `git config --global --get credential.helper`
+
+**`C:\Users\hameed>`** i did not get any output here [Ans-8](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-8.md)

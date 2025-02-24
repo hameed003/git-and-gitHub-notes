@@ -166,3 +166,7 @@ git config --global credential.helper manager-core
 - Consider using **SSH** or **Git Credential Manager (GCM)** for better security.
 
 Let me know if you have further questions! 😊
+
+# Doubt:
+
+what is the difference between `cache`, `store` and `manager-core` credentail helpers. [Ans-11](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-11.md)

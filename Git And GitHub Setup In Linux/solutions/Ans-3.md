@@ -128,3 +128,11 @@ The two entries you’ve listed in the **Windows Credential Manager** are relate
 ---
 
 Let me know if you need further clarification or help!
+
+# Doubt:
+
+**`C:\Users\hameed>`** `gh auth status`
+'gh' is not recognized as an internal or external command,
+operable program or batch file.
+
+**`C:\Users\hameed>`** [Ans-4](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-4.md)

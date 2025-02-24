@@ -143,3 +143,7 @@ This should now return the name of the credential helper you set (e.g., `manager
 - Set a credential helper (e.g., `manager-core`, `store`, or `cache`) to avoid repeatedly entering credentials.
 
 Let me know if you need further assistance! 😊
+
+# Doubt:
+
+if there is no credentail helper sets then how my credentails are save in windows credentail manager [Ans-7](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-7.md)

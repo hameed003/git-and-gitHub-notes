@@ -169,3 +169,7 @@ Now, the **global-level configuration** (`store`) will override the **system-lev
 ---
 
 Let me know if you have further questions! 😊
+
+# Doubt:
+
+when should i use this command `git config --global credential.helper store`, once i enter `PATs` or before entering `PATs`. [Ans-10](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-10.md)
