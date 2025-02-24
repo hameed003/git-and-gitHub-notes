@@ -146,4 +146,4 @@ Let me know if you need further assistance! 😊
 
 # Doubt:
 
-if there is no credentail helper sets then how my credentails are save in windows credentail manager [Ans-7](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-7.md)
+**Q7:** if there is no `credentail helper` sets then how my credentails are saved in windows credentail manager [Ans-7](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-7.md)

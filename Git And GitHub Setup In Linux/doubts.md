@@ -8,6 +8,7 @@ why i get this error again and again and this is only in linux but not in window
 ---
 
 **Q3:** ![Windows Credentail Manger](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/Windows%20Credentail%20Manger.png)
+
 what is the difference between them: [Ans-3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-3.md)
 
 ---
@@ -28,7 +29,7 @@ operable program or batch file.
 
 ---
 
-**Q7:** if there is no credentail helper sets then how my credentails are save in windows credentail manager [Ans-7](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-7.md)
+**Q7:** if there is no `credentail helper` sets then how my credentails are saved in windows credentail manager [Ans-7](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-7.md)
 
 ---
 
@@ -56,6 +57,6 @@ manager
 
 **Q12:** ![Ways GitHub Provides To Authenticate And Authorize](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/Ways%20GitHub%20Provides%20To%20Authenticate%20And%20Authorize.png)
 
-`GitHub Apps`
-`OAuth Apps`
+`GitHub Apps`,
+`OAuth Apps` and
 `Personal access tokens` [ Fine-grained tokens and Tokens (classic) ] what is the difference between them ? [Ans-12](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-12.md)
