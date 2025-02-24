@@ -15,7 +15,9 @@ why i get this error again and again and this is only in linux but not in window
 
 ---
 
-**Q3:** ![Windows Credentail Manger](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/Windows%20Credentail%20Manger.png)
+**Q3:**
+
+![Windows Credentail Manger](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/Windows%20Credentail%20Manger.png)
 
 what is the difference between them: [Ans-3](https://github.com/hameed003/git-and-gitHub-notes/blob/main/Git%20And%20GitHub%20Setup%20In%20Linux/solutions/Ans-3.md)
 
