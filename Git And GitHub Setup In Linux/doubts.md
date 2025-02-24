@@ -31,3 +31,9 @@ manager
 **Q10:** when should i use this command `git config --global credential.helper store`, once i enter `PATs` or before entering `PATs`. [Ans-10]()
 
 **Q11:** what is the difference between `cache`, `store` and `manager-core` credentail helpers. [Ans-11]()
+
+**Q12:** ![Ways GitHub Provides To Authenticate And Authorize]()
+
+`GitHub Apps`
+`OAuth Apps`
+`Personal access tokens` [ Fine-grained tokens and Tokens (classic) ] what is the difference between them ? [Ans-12]()
